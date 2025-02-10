@@ -1,0 +1,135 @@
+import turtle
+import math
+
+# Создаем экран
+screen = turtle.Screen()
+screen.bgcolor("white")  # Белый фон
+
+# Настройка черепахи
+tri = turtle.Turtle()
+tri.shape("turtle")
+tri.speed(0)  # Устанавливаем максимальную скорость, чтобы рисование было мгновенным
+
+# Убираем контур, устанавливаем цвет пера и заливки
+tri.pensize(0)  # Убираем толщину пера
+tri.pencolor("white")  # Убираем черный контур, устанавливаем цвет пера в белый
+
+tri.right(90)
+
+# Длины сторон
+hypotenuse = 100
+cathetus = 50 * (2 ** 0.5)
+side_1 = (50 * (2 ** 0.5)) / 2
+side_2 = 50
+
+# Рисуем треугольник1
+def triangle1():
+    # Устанавливаем цвет заливки
+    tri.fillcolor("DarkCyan")
+
+    tri.begin_fill()
+    tri.forward(hypotenuse)
+    tri.left(135)
+    tri.forward(cathetus)
+    tri.left(90)
+    tri.forward(cathetus)
+    tri.end_fill()
+triangle1()
+tri.right(135)
+tri.forward(hypotenuse)
+tri.right(180)
+#------------------------------------------------------------------
+# Рисуем треугольник2
+def triangle2():
+    # Устанавливаем цвет заливки
+    tri.fillcolor("CornflowerBlue")
+
+    tri.begin_fill()
+    tri.forward(hypotenuse)
+    tri.left(135)
+    tri.forward(cathetus)
+    tri.left(90)
+    tri.forward(cathetus)
+    tri.end_fill()
+triangle2()
+tri.right(180)
+tri.forward(side_1)
+#------------------------------------------------------------------
+# Рисуем квадрат
+def square():
+    # Устанавливаем цвет заливки
+    tri.fillcolor("coral1")
+
+    tri.begin_fill()
+    tri.forward(side_1)
+    tri.left(90)
+    tri.forward(side_1)
+    tri.left(90)
+    tri.forward(side_1)
+    tri.end_fill()
+square()
+tri.left(45)
+#------------------------------------------------------------------
+# Рисуем треугольник3
+def triangle3():
+    # Устанавливаем цвет заливки
+    tri.fillcolor("DarkOliveGreen4")
+    tri.begin_fill()
+    tri.forward(side_2)
+    tri.left(135)
+    tri.forward(side_1)
+    tri.left(90)
+    tri.forward(side_1)
+    tri.end_fill()
+triangle3()
+tri.right(90)
+#------------------------------------------------------------------
+# Рисуем треугольник4
+def triangle4():
+    # Устанавливаем цвет заливки
+    tri.fillcolor("burlywood4")
+    tri.begin_fill()
+    tri.forward(cathetus)
+    tri.left(135)
+    tri.forward(side_2)
+    tri.left(90)
+    tri.forward(side_2)
+    tri.end_fill()
+triangle4()
+tri.left(135)
+tri.forward(side_1)
+tri.right(45)
+tri.forward(side_2)
+tri.right(180)
+#------------------------------------------------------------------
+# Рисуем треугольник5
+def triangle5():
+    # Устанавливаем цвет заливки
+    tri.fillcolor("DarkOrange")
+    tri.begin_fill()
+    tri.forward(side_2)
+    tri.left(135)
+    tri.forward(side_1)
+    tri.left(90)
+    tri.forward(side_1)
+    tri.end_fill()
+triangle5()
+#------------------------------------------------------------------
+# Рисуем параллелограмм
+def parallelogram():
+    # Устанавливаем цвет заливки
+    tri.fillcolor("CadetBlue3")
+    tri.begin_fill()
+    tri.forward(side_1)
+    tri.left(135)
+    tri.forward(side_2)
+    tri.left(45)
+    tri.forward(side_1)
+    tri.left(135)
+    tri.forward(side_2)
+    tri.end_fill()
+parallelogram()
+# Скрываем черепаху
+tri.hideturtle()
+# Ожидаем, пока пользователь не закроет окно
+screen.mainloop()
