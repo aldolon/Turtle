@@ -1,0 +1,10 @@
+def triangle2():
+    tri.fillcolor("CornflowerBlue")
+    tri.begin_fill()
+    tri.forward(hypotenuse)
+    tri.left(135)
+    tri.forward(cathetus)
+    tri.left(90)
+    tri.forward(cathetus)
+    tri.end_fill()
+triangle2()
