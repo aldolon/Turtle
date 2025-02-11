@@ -1,0 +1,10 @@
+def square():
+    tri.fillcolor("coral1")
+    tri.begin_fill()
+    tri.forward(side_1)
+    tri.left(90)
+    tri.forward(side_1)
+    tri.left(90)
+    tri.forward(side_1)
+    tri.end_fill()
+square()
