@@ -1,0 +1,10 @@
+def triangle5():
+    tri.fillcolor("DarkOrange")
+    tri.begin_fill()
+    tri.forward(side_2)
+    tri.left(135)
+    tri.forward(side_1)
+    tri.left(90)
+    tri.forward(side_1)
+    tri.end_fill()
+triangle5()
