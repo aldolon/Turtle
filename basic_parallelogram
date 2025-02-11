@@ -1,0 +1,12 @@
+def parallelogram():
+    tri.fillcolor("CadetBlue3")
+    tri.begin_fill()
+    tri.forward(side_1)
+    tri.left(135)
+    tri.forward(side_2)
+    tri.left(45)
+    tri.forward(side_1)
+    tri.left(135)
+    tri.forward(side_2)
+    tri.end_fill()
+parallelogram()
