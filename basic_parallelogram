@@ -1,5 +1,5 @@
 def parallelogram():
-    tri.fillcolor("CadetBlue3")
+    tri.fillcolor("DarkCyan")
     tri.begin_fill()
     tri.forward(side_1)
     tri.left(135)
