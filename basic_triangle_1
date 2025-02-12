@@ -1,5 +1,5 @@
 def triangle1():
-    tri.fillcolor("DarkCyan")
+    tri.fillcolor("BlueViolet")
     tri.begin_fill()
     tri.forward(hypotenuse)
     tri.left(135)
