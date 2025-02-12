@@ -1,5 +1,5 @@
 def triangle4():
-    tri.fillcolor("burlywood4")
+    tri.fillcolor("DarkGoldenrod1")
     tri.begin_fill()
     tri.forward(cathetus)
     tri.left(135)
