@@ -24,9 +24,7 @@ side_2 = 50
 
 # Рисуем треугольник1
 def triangle1():
-    # Устанавливаем цвет заливки
-    tri.fillcolor("DarkCyan")
-
+    tri.fillcolor("BlueViolet")
     tri.begin_fill()
     tri.forward(hypotenuse)
     tri.left(135)
@@ -41,9 +39,7 @@ tri.right(180)
 #------------------------------------------------------------------
 # Рисуем треугольник2
 def triangle2():
-    # Устанавливаем цвет заливки
     tri.fillcolor("CornflowerBlue")
-
     tri.begin_fill()
     tri.forward(hypotenuse)
     tri.left(135)
@@ -57,9 +53,7 @@ tri.forward(side_1)
 #------------------------------------------------------------------
 # Рисуем квадрат
 def square():
-    # Устанавливаем цвет заливки
-    tri.fillcolor("coral1")
-
+    tri.fillcolor("brown1")
     tri.begin_fill()
     tri.forward(side_1)
     tri.left(90)
@@ -73,7 +67,7 @@ tri.left(45)
 # Рисуем треугольник3
 def triangle3():
     # Устанавливаем цвет заливки
-    tri.fillcolor("DarkOliveGreen4")
+    tri.fillcolor("chartreuse3")
     tri.begin_fill()
     tri.forward(side_2)
     tri.left(135)
@@ -86,8 +80,7 @@ tri.right(90)
 #------------------------------------------------------------------
 # Рисуем треугольник4
 def triangle4():
-    # Устанавливаем цвет заливки
-    tri.fillcolor("burlywood4")
+    tri.fillcolor("DarkGoldenrod1")
     tri.begin_fill()
     tri.forward(cathetus)
     tri.left(135)
@@ -118,7 +111,7 @@ triangle5()
 # Рисуем параллелограмм
 def parallelogram():
     # Устанавливаем цвет заливки
-    tri.fillcolor("CadetBlue3")
+    tri.fillcolor("DarkCyan")
     tri.begin_fill()
     tri.forward(side_1)
     tri.left(135)
