@@ -22,7 +22,7 @@ side_2 = 50
 #----------------------------------------------------------------------------------------------
 tri.right(45)
 def triangle1():
-    tri.fillcolor("DarkCyan")
+    tri.fillcolor("BlueViolet")
     tri.begin_fill()
     tri.forward(hypotenuse)
     tri.left(135)
@@ -52,7 +52,7 @@ tri.left(135)
 
 def triangle4():
     # Устанавливаем цвет заливки
-    tri.fillcolor("burlywood4")
+    tri.fillcolor("DarkGoldenrod1")
     tri.begin_fill()
     tri.forward(cathetus)
     tri.left(135)
@@ -69,7 +69,7 @@ tri.forward(hypotenuse)
 tri.right(140)
 
 def triangle3():
-    tri.fillcolor("DarkOliveGreen4")
+    tri.fillcolor("chartreuse3")
     tri.begin_fill()
     tri.forward(side_2)
     tri.left(135)
@@ -103,7 +103,7 @@ tri.right(180)
 
 
 def square():
-    tri.fillcolor("coral1")
+    tri.fillcolor("brown1")
     tri.begin_fill()
     tri.forward(side_1)
     tri.left(90)
@@ -123,7 +123,7 @@ tri.right(180)
 
 def parallelogram():
     # Устанавливаем цвет заливки
-    tri.fillcolor("CadetBlue3")
+    tri.fillcolor("DarkCyan")
     tri.begin_fill()
     tri.forward(side_1)
     tri.left(135)
